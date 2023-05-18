@@ -7,7 +7,7 @@ Unlock the mysteries of the cosmos with AstroVerse - illuminating the wonders of
 ### Demo
 
 
-Click [here]() to test the application
+Click [here]( https://shahadath-rifat.github.io/AstroVerse/) to test the application
 
 
 <br/>

@@ -27,3 +27,232 @@ body {
 
 /*-------------------Header---------------------*/
 
+header {
+    background: linear-gradient(to right, #000000, #0f2027, #000000);
+    height: 60px;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: min(100% - 30px, 1280px);
+    margin-inline: auto;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+header div i {
+    color: #f2f1f5;
+    font-size: 27px;
+    margin-right: 10px;
+}
+
+h1 {
+    font-size: 29px;
+    color:#fff;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    line-height: 60px;
+    text-align: right ;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    font-size: 0;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+}
+
+nav ul li {
+    display: inline;
+    line-height: 60px;
+}
+
+nav ul li a {
+    color:#fff;
+    font-size: 22px;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 0.2px;
+    transition: color 0.25s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
+
+nav ul li + li {
+    margin-left: 20px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+
+.header-right .search-bar .search-input {
+    padding: 10px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    display: none;
+    height: 37px;
+    width: 195px;
+    color: #fff;
+    background-color:#0f2027;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    font-size: 15px;
+}
+  
+.header-right .search-bar.active .search-input {
+    display: inline-block;
+}
+  
+.header-right .search-bar.active .search-button i {
+    transform: rotate(90deg);
+}
+
+.header-right .sign-in-btn {
+    width: 120px;
+    height: 40px;
+    border-radius: 50px;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 26px 30px -10px;
+    transition: all 0.25s ease-in-out;
+    cursor: pointer;
+    background-color:var(--app-green);
+    margin-left: 10px;
+    margin-bottom: 8px;
+
+}
+
+.search-button {
+    width: 40px;
+    height: 45px;
+    border-radius: 50px;
+    background-color: #000;
+    cursor: pointer;
+}
+
+.search-button i {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 2px;
+
+}
+
+
+/*--------------Hero-banner----------------*/
+#banner {
+    background: #fff url(../image/guillermo-ferla-Oze6U2m1oYU-unsplash.jpg) center center / cover no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 5px 5px rgb(0 0 0 / 0.5);
+}
+
+#banner h2 {
+    font-size: 44px;
+    font: bold;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 27px;
+}
+
+.hero-banner {
+    text-align: center;
+    max-height: 800px;
+}
+
+.hero-banner p {
+    font-size: 21px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    color: #fff;
+  }
+
+  .btnn {
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    transition: all 0.3s ease;
+}
+  
+.btnn:hover {
+    background-color:#e05f37 ;
+}
+
+main {
+    overflow: hidden; 
+    height:calc(100vh - 60px -65px);
+}
+
+
+
+
+
+
+/*-------------------footer---------------------*/
+
+footer {
+    background: linear-gradient(to right, #0f2027, #000, #0f2027);
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 0 0 10px 0;
+    
+  }
+  
+  footer p {
+    padding: 15px 0;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+  }
+  
+  .social-links i {
+    padding: 10px;
+    color: grey;
+  }
+  
+  .logos:hover {
+    transition: 0.4s;
+    transform: translatey(-5px);
+  }
+  
+  .social-links a .fa-facebook:hover {
+    color: #3b5998;
+  }
+  
+  .social-links a .fa-twitter:hover {
+    color: #1da1f2
+  }
+  
+  .social-links a .fa-instagram:hover {
+    color: #c13584;
+  }
+  
+  .social-links a .fa-youtube:hover {
+    color: #f70000;
+  }

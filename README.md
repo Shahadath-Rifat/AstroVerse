@@ -1,6 +1,6 @@
 ### Hello there
 
-Unlock the mysteries of the cosmos with AstroInsights - illuminating the wonders of space through captivating articles, stunning visuals, and cosmic revelations. I am excited to share my progress with you and hope you enjoy following along.
+Unlock the mysteries of the cosmos with AstroVerse - illuminating the wonders of space through captivating articles, stunning visuals, and cosmic revelations. I am excited to share my progress with you and hope you enjoy following along.
 
 
 
